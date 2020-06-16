@@ -20,6 +20,7 @@ Inicializar repositorio
 $ git init                            # Iniciar un nuevo proyecto de git (.git)
 $ git status                          # Estado actual del repositorio
 $ git add .                           # Marca todos los ficheros para el próximo commit. 
+$ git checkout -- .                   # Eliminar cambios añadidos de  todos los ficheros. 
 $ git commit -m "Commit inicial"      # Crea un nuevo commit con los ficheros marcados.
 $ git commit -am "Commit inicial"     # add y commit
 ```
